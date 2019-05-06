@@ -17,8 +17,18 @@ const settings = {
     footerColor: "red"
 };
 
-app.get('/api/settings', (req,res) => {
+app.get('/api/app/settings', (req,res) => {
+    console.log('--settings---');
     res.json(settings)
+})
+
+app.get('/users', (req,res) => {
+  console.log('--users---');
+  res.json({users:[]})
+})
+
+app.get('/test', (req,res) => {
+  res.send("API works!!!");
 })
 
 app.get('/', (req, res) => {
