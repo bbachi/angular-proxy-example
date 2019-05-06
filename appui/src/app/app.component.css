@@ -1,0 +1,19 @@
+.footer {
+    background-color: red;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header {
+    background-color: green;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    margin: 5% 15%;
+}
